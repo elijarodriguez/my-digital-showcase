@@ -39,8 +39,8 @@ const ContactSection = () => (
             <div className="glass-card p-4 font-mono text-sm">
               <div className="flex items-center gap-2 mb-2">
                 <span className="w-3 h-3 rounded-full bg-destructive/60" />
-                <span className="w-3 h-3 rounded-full bg-yellow-500/60" />
-                <span className="w-3 h-3 rounded-full bg-green-500/60" />
+                <span className="w-3 h-3 rounded-full" style={{ background: "hsl(45 80% 50% / 0.6)" }} />
+                <span className="w-3 h-3 rounded-full" style={{ background: "hsl(140 60% 45% / 0.6)" }} />
               </div>
               <p className="text-muted-foreground">
                 <span className="text-primary">$</span> echo "Let's build something amazing"
