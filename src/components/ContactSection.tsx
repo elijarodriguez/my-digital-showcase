@@ -11,7 +11,7 @@ const ContactSection = () => (
         transition={{ duration: 0.6 }}
       >
         <div className="flex items-center gap-3 mb-4">
-          <span className="font-mono text-primary text-sm">04.</span>
+          <span className="font-mono text-primary text-sm">05.</span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground">Get In Touch</h2>
           <div className="h-px flex-1 bg-border max-w-xs" />
         </div>
