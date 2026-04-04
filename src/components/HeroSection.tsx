@@ -67,7 +67,7 @@ const HeroSection = () => {
 
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
             <span className="text-foreground">Hi, I'm </span>
-            <span className="text-gradient">[Your Name]</span>
+            <span className="text-gradient">John Elija</span>
           </h1>
 
           <div className="h-12 md:h-16 flex items-center justify-center mb-8">
