@@ -12,29 +12,13 @@ interface TimelineItem {
 
 const timeline: TimelineItem[] = [
   {
-    type: "work",
-    title: "Your Job Title",
-    company: "Company Name",
-    period: "2023 — Present",
-    description: "Describe your role, responsibilities, and key achievements. Highlight any AI integration or full stack work you did.",
-    tags: ["React", "Node.js", "AI"],
-  },
-  {
-    type: "work",
-    title: "Previous Role",
-    company: "Previous Company",
-    period: "2021 — 2023",
-    description: "Describe what you built, problems you solved, and impact you made. Replace this with your real experience.",
-    tags: ["TypeScript", "PostgreSQL"],
-  },
-  {
     type: "education",
     title: "BS Computer Engineering",
     company: "Your University",
     period: "2017 — 2021",
     description: "Relevant coursework, thesis topic, or notable achievements during your degree.",
     tags: ["Software Engineering", "AI/ML"],
-  },
+  }
 ];
 
 const ResumeSection = () => (
@@ -54,10 +38,8 @@ const ResumeSection = () => (
           </div>
 
           <a
-            href="assets/resume.pdf"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
+            href="/resume.pdf"
+            download
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-primary/50 text-primary font-mono text-sm hover:bg-primary/10 transition-colors"
           >
             <Download className="w-4 h-4" />
