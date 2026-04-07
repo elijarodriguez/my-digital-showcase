@@ -5,14 +5,11 @@ const Footer = () => (
         <span className="text-primary">©</span> {new Date().getFullYear()} — Built with purpose & precision
       </p>
       <div className="flex items-center gap-6">
-        <a href="#" className="font-mono text-sm text-muted-foreground hover:text-primary transition-colors">
+        <a href="https://github.com/elijarodriguez" className="font-mono text-sm text-muted-foreground hover:text-primary transition-colors">
           GitHub
         </a>
-        <a href="#" className="font-mono text-sm text-muted-foreground hover:text-primary transition-colors">
+        <a href="https://www.linkedin.com/in/john-elija-rodriguez-209490325/" className="font-mono text-sm text-muted-foreground hover:text-primary transition-colors">
           LinkedIn
-        </a>
-        <a href="#" className="font-mono text-sm text-muted-foreground hover:text-primary transition-colors">
-          Twitter
         </a>
       </div>
     </div>

@@ -6,13 +6,13 @@ const services = [
     icon: Globe,
     title: "Web Development",
     desc: "Full stack websites and web apps built with modern frameworks. From landing pages to complex SaaS platforms.",
-    tags: ["React", "Next.js", "Node.js"],
+    tags: ["React", "Next.js", "Node.js", "HTML", "CSS", "JavaScript"],
   },
   {
     icon: Bot,
     title: "AI Integration",
     desc: "Embed intelligent features into your products — chatbots, content generation, smart search, and automated workflows.",
-    tags: ["OpenAI", "LangChain", "RAG"],
+    tags: ["OpenAI"],
   },
   {
     icon: Database,
@@ -25,19 +25,7 @@ const services = [
     title: "UI/UX Engineering",
     desc: "Pixel-perfect interfaces with smooth animations and responsive design that works everywhere.",
     tags: ["Tailwind", "Figma", "Motion"],
-  },
-  {
-    icon: BarChart3,
-    title: "Data Dashboards",
-    desc: "Interactive analytics dashboards with real-time data visualization and AI-powered insights.",
-    tags: ["Recharts", "D3", "Analytics"],
-  },
-  {
-    icon: Shield,
-    title: "Technical Consulting",
-    desc: "Architecture reviews, tech stack recommendations, and AI strategy planning for your team.",
-    tags: ["Strategy", "Review", "Planning"],
-  },
+  }
 ];
 
 const ServicesSection = () => (

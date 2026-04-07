@@ -27,11 +27,11 @@ const ContactSection = () => (
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="w-5 h-5 text-primary" />
-                <span className="font-mono text-sm">your.email@example.com</span>
+                <span className="font-mono text-sm">elijarodriguez1@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span className="font-mono text-sm">Your Location</span>
+                <span className="font-mono text-sm">Malolos, Bulacan </span>
               </div>
             </div>
 

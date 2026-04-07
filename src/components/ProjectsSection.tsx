@@ -12,7 +12,7 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Project Name Here",
+    title: "INCIQ Web Application",
     description: "Brief description of the web development project, what problem it solved, and what tech stack you used. Replace this with your actual project.",
     tags: ["React", "Node.js", "AI Integration"],
     liveUrl: "#",
