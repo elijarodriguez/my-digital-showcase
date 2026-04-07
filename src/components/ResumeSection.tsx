@@ -54,10 +54,9 @@ const ResumeSection = () => (
           </div>
 
           <a
-            href="#"
+            href="assets/resume.pdf"
             onClick={(e) => {
               e.preventDefault();
-              alert("Upload your resume PDF to public/ and update this link!");
             }}
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-primary/50 text-primary font-mono text-sm hover:bg-primary/10 transition-colors"
           >
