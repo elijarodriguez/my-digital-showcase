@@ -12,24 +12,24 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "INCIQ Web Application",
+    title: "INCIQ Web App",
     description: "Brief description of the web development project, what problem it solved, and what tech stack you used. Replace this with your actual project.",
     tags: ["React", "Node.js", "AI Integration"],
-    liveUrl: "#",
+    liveUrl: "https://elijarodriguez.github.io/inciq-webapp/",
     repoUrl: "#",
   },
   {
-    title: "Another Project",
+    title: "TalatidePH",
     description: "Describe another website or application you built. Highlight the AI or smart features you implemented.",
     tags: ["Next.js", "PostgreSQL", "OpenAI"],
-    liveUrl: "#",
+    liveUrl: "https://talatideph.vercel.app/",
     repoUrl: "#",
   },
   {
-    title: "Your Third Project",
+    title: "Frozen Food and Shipment Tracker Web App",
     description: "Add details about your third project here. Focus on the impact and results you achieved for the client.",
     tags: ["TypeScript", "Tailwind", "Docker"],
-    liveUrl: "#",
+    liveUrl: "https://flavor-flow-logistics.web.app/",
     repoUrl: "#",
   },
   {
