@@ -9,10 +9,10 @@ const highlights = [
 ];
 
 const skills = [
-  { category: "Frontend", items: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"] },
-  { category: "Backend", items: ["Node.js", "Python", "PostgreSQL", "REST APIs", "GraphQL"] },
-  { category: "AI / ML", items: ["OpenAI API", "LangChain", "RAG Systems", "Prompt Engineering", "AI Agents"] },
-  { category: "DevOps", items: ["Docker", "CI/CD", "AWS", "Vercel", "Git"] },
+  { category: "Frontend", items: ["React", "TypeScript", "Next.js", "Tailwind CSS"] },
+  { category: "Backend", items: ["Node.js", "Python", "MySQL", "PHP"] },
+  { category: "AI / ML", items: ["OpenAI API", "Prompt Engineering", "AI Agents"] },
+  { category: "DevOps", items: ["Docker", "CI/CD Pipeline", "Git"] },
 ];
 
 const AboutSection = () => (
