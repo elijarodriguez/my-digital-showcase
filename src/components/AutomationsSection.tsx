@@ -13,6 +13,21 @@ interface Automation {
 
 const automations: Automation[] = [
   {
+    title: "Website Quality Analyzer",
+    description:
+      "Scrapes business listings from Google Maps, analyzes each website with AI, and generates quality scores across 7 metrics — pushed to Google Sheets as a ready-to-use dashboard.",
+    trigger: "Manual / Cron (Keyword + Location)",
+    steps: [
+      "Google Maps scrape via Apify (name, site, phone, rating)",
+      "Fetch site content + score 7 areas with OpenAI",
+      "Compute weighted overall score + extract email",
+      "Format & push report to Google Sheets",
+    ],
+    outcome: "Analyzed 4,300+ businesses · saved 500+ hrs · 240x faster than manual review",
+    tags: ["n8n", "Apify", "OpenAI GPT", "Google Sheets API"],
+    icon: MapPin,
+  },
+  {
     title: "Lead Capture → CRM Sync",
     description:
       "Automatically capture form leads, enrich them with AI, and push to CRM with Slack notifications.",
