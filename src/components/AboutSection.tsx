@@ -3,14 +3,15 @@ import { Code2, Brain, Layers, Zap } from "lucide-react";
 
 const highlights = [
   { icon: Code2, label: "Full Stack", desc: "End-to-end web development" },
-  { icon: Brain, label: "AI-Powered", desc: "Smart integrations & automation" },
-  { icon: Layers, label: "Scalable", desc: "Built for growth" },
-  { icon: Zap, label: "Fast", desc: "Performance-first approach" },
+  { icon: Zap, label: "Automation", desc: "n8n workflows & integrations" },
+  { icon: Brain, label: "AI-Powered", desc: "Smart logic & enrichment" },
+  { icon: Layers, label: "Scalable", desc: "Production-ready systems" },
 ];
 
 const skills = [
   { category: "Frontend", items: ["React", "TypeScript", "Next.js", "Tailwind CSS"] },
   { category: "Backend", items: ["Node.js", "Python", "MySQL", "PHP"] },
+  { category: "Automation", items: ["n8n", "Webhooks", "REST APIs", "Cron Jobs"] },
   { category: "AI / ML", items: ["OpenAI API", "Prompt Engineering", "AI Agents"] },
   { category: "DevOps", items: ["Docker", "CI/CD Pipeline", "Git"] },
 ];
@@ -35,16 +36,15 @@ const AboutSection = () => (
           {/* Left: Bio */}
           <div className="space-y-6">
             <p className="text-muted-foreground leading-relaxed text-lg">
-              I'm a computer engineer who bridges the gap between traditional software development
-              and modern AI capabilities. As a full stack developer, I build complete web solutions
-              from the ground up — and then supercharge them with{" "}
-              <span className="text-primary font-semibold">AI-powered features</span>.
+              I'm a computer engineer who blends full stack development with{" "}
+              <span className="text-primary font-semibold">automation engineering</span>. I build
+              complete web platforms and the n8n workflows that power them behind the scenes.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Whether it's integrating intelligent chatbots, automating complex workflows,
-              or building predictive dashboards — I treat AI as a complementary tool that
-              elevates every project I touch. My engineering background ensures these
-              solutions are robust, scalable, and production-ready.
+              From custom dashboards to multi-step automations connecting CRMs, AI models, and
+              internal tools — I treat <span className="text-primary font-semibold">n8n</span> as my
+              go-to platform for replacing manual work with reliable, observable systems. My
+              engineering background ensures every workflow is robust, scalable, and production-ready.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
