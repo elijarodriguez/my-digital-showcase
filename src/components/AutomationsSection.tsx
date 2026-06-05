@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Workflow, Zap, GitBranch, Mail, Database, Bot } from "lucide-react";
+import { Workflow, Zap, GitBranch, Mail, Database, Bot, MapPin } from "lucide-react";
 
 interface Automation {
   title: string;
