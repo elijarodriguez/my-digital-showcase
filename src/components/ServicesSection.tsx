@@ -1,18 +1,30 @@
 import { motion } from "framer-motion";
-import { Globe, Bot, Database, Palette, BarChart3, Shield } from "lucide-react";
+import { Globe, Workflow, Bot, Database, Palette, Zap } from "lucide-react";
 
 const services = [
   {
     icon: Globe,
     title: "Web Development",
     desc: "Full stack websites and web apps built with modern frameworks. From landing pages to complex SaaS platforms.",
-    tags: ["React", "Next.js", "Node.js", "HTML", "CSS", "JavaScript"],
+    tags: ["React", "Next.js", "Node.js", "TypeScript"],
+  },
+  {
+    icon: Workflow,
+    title: "n8n Automation",
+    desc: "Custom n8n workflows that connect your tools, APIs, and databases. Self-hosted setup, complex branching, and error handling included.",
+    tags: ["n8n", "Webhooks", "REST APIs", "Self-Hosted"],
   },
   {
     icon: Bot,
     title: "AI Integration",
-    desc: "Embed intelligent features into your products — chatbots, content generation, smart search, and automated workflows.",
-    tags: ["OpenAI"],
+    desc: "Embed intelligent features into your products and workflows — chatbots, content generation, classification, and AI-driven automations.",
+    tags: ["OpenAI", "LLM Agents", "RAG"],
+  },
+  {
+    icon: Zap,
+    title: "Workflow Consulting",
+    desc: "Audit your manual processes and map them into automated pipelines that save hours every week and reduce human error.",
+    tags: ["Process Mapping", "Integration", "Optimization"],
   },
   {
     icon: Database,
@@ -25,7 +37,7 @@ const services = [
     title: "UI/UX Engineering",
     desc: "Pixel-perfect interfaces with smooth animations and responsive design that works everywhere.",
     tags: ["Tailwind", "Figma", "Motion"],
-  }
+  },
 ];
 
 const ServicesSection = () => (

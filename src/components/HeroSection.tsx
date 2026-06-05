@@ -4,9 +4,9 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const roles = [
   "Full Stack Developer",
-  "AI Integration Specialist",
+  "Automation Engineer",
+  "n8n Specialist",
   "Computer Engineer",
-  "Problem Solver",
 ];
 
 const HeroSection = () => {
@@ -78,9 +78,9 @@ const HeroSection = () => {
           </div>
 
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-12 leading-relaxed">
-            Computer engineer crafting scalable web solutions with AI-powered intelligence.
-            I don't just build websites — I engineer{" "}
-            <span className="text-primary">intelligent digital experiences</span> that solve real problems.
+            Computer engineer building full stack web solutions and{" "}
+            <span className="text-primary">production-grade automation workflows with n8n</span>.
+            I connect APIs, AI, and data so your business runs itself.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
