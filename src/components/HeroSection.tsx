@@ -78,9 +78,10 @@ const HeroSection = () => {
           </div>
 
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-12 leading-relaxed">
-            Computer engineer building full stack web solutions and{" "}
-            <span className="text-primary">production-grade automation workflows with n8n</span>.
-            I connect APIs, AI, and data so your business runs itself.
+            Fresh Computer Engineering graduate with hands-on skills in full stack development and{" "}
+            <span className="text-primary">n8n automation workflows</span>. I'm eager to team up with
+            clients and companies, build real projects, and grow my experience while delivering
+            reliable, thoughtful solutions.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
