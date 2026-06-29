@@ -49,7 +49,7 @@ const AboutSection = () => (
               alongside clients and teams.
             </p>
             <p className="text-muted-foreground leading-relaxed text-sm">
-              {/* Currently open to freelance, internship, and entry-level opportunities where I can contribute and grow. */}
+              Currently open to freelance, internship, and entry-level opportunities where I can contribute and grow.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
