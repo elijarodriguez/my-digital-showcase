@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Workflow, Zap, GitBranch, Mail, Database, Bot, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Workflow, Zap, GitBranch, Mail, Database, Bot, MapPin, ArrowUpRight } from "lucide-react";
 
 interface Automation {
   title: string;
@@ -9,6 +10,7 @@ interface Automation {
   outcome: string;
   tags: string[];
   icon: typeof Workflow;
+  href?: string;
 }
 
 const automations: Automation[] = [
@@ -26,6 +28,7 @@ const automations: Automation[] = [
     outcome: "Analyzed 4,300+ businesses · saved 500+ hrs · 240x faster than manual review",
     tags: ["n8n", "Apify", "OpenAI GPT", "Google Sheets API"],
     icon: MapPin,
+    href: "/automations/website-quality-analyzer",
   },
   {
     title: "Lead Capture → CRM Sync",
@@ -144,6 +147,15 @@ const AutomationsSection = () => (
                 </span>
               ))}
             </div>
+
+            {a.href && (
+              <Link
+                to={a.href}
+                className="mt-5 inline-flex items-center gap-1.5 text-xs font-mono text-primary hover:underline"
+              >
+                View full walkthrough <ArrowUpRight className="w-3.5 h-3.5" />
+              </Link>
+            )}
           </motion.div>
         ))}
       </div>
