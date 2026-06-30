@@ -78,7 +78,7 @@ const HeroSection = () => {
           </div>
 
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-12 leading-relaxed">
-            Fresh Computer Engineering graduate with hands-on skills in full stack development and{" "}
+            Computer Engineering graduate with hands-on skills in full stack development and{" "}
             <span className="text-primary">n8n automation workflows</span>. I'm eager to team up with
             clients and companies, build real projects, and grow my experience while delivering
             reliable, thoughtful solutions.

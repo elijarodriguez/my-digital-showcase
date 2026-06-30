@@ -36,20 +36,20 @@ const AboutSection = () => (
           {/* Left: Bio */}
           <div className="space-y-6">
             <p className="text-muted-foreground leading-relaxed text-lg">
-              I'm a fresh Computer Engineering graduate with a strong foundation in full stack
+              I'm a Computer Engineering graduate with a strong foundation in full stack
               development and a growing specialization in{" "}
               <span className="text-primary font-semibold">automation engineering</span> using n8n.
               I build websites, web apps, and the workflows that connect tools behind the scenes.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I may be early in my career, but I bring clean engineering habits, curiosity, and a
+              I bring clean engineering habits, curiosity, and a
               genuine drive to solve real problems. Whether it's a custom dashboard or an n8n workflow
               that saves hours every week, I'm ready to{" "}
               <span className="text-primary font-semibold">collaborate, learn, and deliver</span>{" "}
               alongside clients and teams.
             </p>
             <p className="text-muted-foreground leading-relaxed text-sm">
-              Currently open to freelance, internship, and entry-level opportunities where I can contribute and grow.
+              Currently open to freelance and entry-level opportunities where I can contribute and grow.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">

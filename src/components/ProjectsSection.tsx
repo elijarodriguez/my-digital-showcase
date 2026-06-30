@@ -31,14 +31,7 @@ const projects: Project[] = [
     tags: ["TypeScript", "Tailwind", "Docker"],
     liveUrl: "https://flavor-flow-logistics.web.app/",
     repoUrl: "https://github.com/elijarodriguez/jimmela-bites.git",
-  },
-  {
-    title: "Add More Projects",
-    description: "Keep adding your recent works here. Each card is a template — replace the content with your real projects.",
-    tags: ["React", "AI", "Full Stack"],
-    liveUrl: "#",
-    repoUrl: "#",
-  },
+  }
 ];
 
 const ProjectsSection = () => (

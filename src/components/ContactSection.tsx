@@ -71,7 +71,7 @@ const ContactSection = () => {
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span className="font-mono text-sm">Malolos, Bulacan </span>
+                <span className="font-mono text-sm">San Jose Del Monte, Bulacan </span>
               </div>
             </div>
 
@@ -98,7 +98,7 @@ const ContactSection = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="John Doe"
+                placeholder="Juan Dela Cruz"
                 required
                 className="w-full px-4 py-3 rounded-lg bg-secondary border border-border text-foreground font-body placeholder:text-muted-foreground/50 focus:outline-none focus:border-primary/50 transition-colors"
               />
@@ -110,7 +110,7 @@ const ContactSection = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="john@company.com"
+                placeholder="juan@company.com"
                 required
                 className="w-full px-4 py-3 rounded-lg bg-secondary border border-border text-foreground font-body placeholder:text-muted-foreground/50 focus:outline-none focus:border-primary/50 transition-colors"
               />
