@@ -39,6 +39,7 @@ const automations: Automation[] = [
     outcome: "Saved ~10 hrs/week of manual data entry",
     tags: ["n8n", "OpenAI", "HubSpot", "Slack"],
     icon: Mail,
+    href: "/automations/lead-capture-crm-sync",
   },
   {
     title: "AI Content Pipeline",
@@ -49,6 +50,7 @@ const automations: Automation[] = [
     outcome: "3x content output with consistent quality",
     tags: ["n8n", "OpenAI", "Notion", "WordPress"],
     icon: Bot,
+    href: "/automations/ai-content-pipeline",
   },
   {
     title: "Database Sync & Reporting",
@@ -59,6 +61,7 @@ const automations: Automation[] = [
     outcome: "Real-time visibility for non-technical teams",
     tags: ["n8n", "PostgreSQL", "Google Sheets"],
     icon: Database,
+    href: "/automations/database-sync-reporting",
   },
   {
     title: "Multi-Step Approval Workflow",
@@ -69,6 +72,7 @@ const automations: Automation[] = [
     outcome: "Approval time cut from days to hours",
     tags: ["n8n", "Conditional Logic", "Email"],
     icon: GitBranch,
+    href: "/automations/multi-step-approval",
   },
 ];
 
