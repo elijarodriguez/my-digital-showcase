@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
+import inciqImg from "@/assets/projects/inciq.png";
+import talatideImg from "@/assets/projects/talatide.png";
+import flavorImg from "@/assets/projects/flavor.png";
 
 interface Project {
   title: string;
@@ -15,6 +18,7 @@ const projects: Project[] = [
     title: "INCIQ Web App",
     description: "Brief description of the web development project, what problem it solved, and what tech stack you used. Replace this with your actual project.",
     tags: ["React", "Node.js", "AI Integration"],
+    image: inciqImg,
     liveUrl: "https://elijarodriguez.github.io/inciq-webapp/",
     repoUrl: "https://github.com/elijarodriguez/inciq-webapp.git",
   },
@@ -22,6 +26,7 @@ const projects: Project[] = [
     title: "TalatidePH",
     description: "Describe another website or application you built. Highlight the AI or smart features you implemented.",
     tags: ["Next.js", "PostgreSQL", "OpenAI"],
+    image: talatideImg,
     liveUrl: "https://talatideph.vercel.app/",
     repoUrl: "https://github.com/elijarodriguez/talatideph.git",
   },
@@ -29,6 +34,7 @@ const projects: Project[] = [
     title: "Frozen Food and Shipment Tracker Web App",
     description: "Add details about your third project here. Focus on the impact and results you achieved for the client.",
     tags: ["TypeScript", "Tailwind", "Docker"],
+    image: flavorImg,
     liveUrl: "https://flavor-flow-logistics.web.app/",
     repoUrl: "https://github.com/elijarodriguez/jimmela-bites.git",
   }
