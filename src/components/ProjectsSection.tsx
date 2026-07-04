@@ -70,17 +70,29 @@ const ProjectsSection = () => (
             transition={{ duration: 0.5, delay: i * 0.1 }}
             className="glass-card glow-border overflow-hidden group"
           >
-            {/* Placeholder image area */}
-            <div className="h-48 bg-secondary/50 flex items-center justify-center border-b border-border/50 overflow-hidden">
-              <div className="text-center">
-                <div className="font-mono text-sm text-muted-foreground mb-2">
-                  {"// screenshot or preview"}
+            {/* Project preview screenshot */}
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="block h-56 bg-secondary/50 border-b border-border/50 overflow-hidden relative"
+            >
+              {project.image ? (
+                <img
+                  src={project.image}
+                  alt={`${project.title} preview`}
+                  loading="lazy"
+                  className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                />
+              ) : (
+                <div className="h-full flex items-center justify-center">
+                  <span className="font-mono text-sm text-muted-foreground">
+                    {"// screenshot"}
+                  </span>
                 </div>
-                <span className="text-xs text-muted-foreground/60">
-                  Replace with project screenshot
-                </span>
-              </div>
-            </div>
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent pointer-events-none" />
+            </a>
 
             <div className="p-6">
               <div className="flex items-start justify-between mb-3">
