@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
+import inciqImg from "@/assets/projects/inciq.png";
+import talatideImg from "@/assets/projects/talatide.png";
+import flavorImg from "@/assets/projects/flavor.png";
 
 interface Project {
   title: string;
@@ -15,6 +18,7 @@ const projects: Project[] = [
     title: "INCIQ Web App",
     description: "Brief description of the web development project, what problem it solved, and what tech stack you used. Replace this with your actual project.",
     tags: ["React", "Node.js", "AI Integration"],
+    image: inciqImg,
     liveUrl: "https://elijarodriguez.github.io/inciq-webapp/",
     repoUrl: "https://github.com/elijarodriguez/inciq-webapp.git",
   },
@@ -22,6 +26,7 @@ const projects: Project[] = [
     title: "TalatidePH",
     description: "Describe another website or application you built. Highlight the AI or smart features you implemented.",
     tags: ["Next.js", "PostgreSQL", "OpenAI"],
+    image: talatideImg,
     liveUrl: "https://talatideph.vercel.app/",
     repoUrl: "https://github.com/elijarodriguez/talatideph.git",
   },
@@ -29,6 +34,7 @@ const projects: Project[] = [
     title: "Frozen Food and Shipment Tracker Web App",
     description: "Add details about your third project here. Focus on the impact and results you achieved for the client.",
     tags: ["TypeScript", "Tailwind", "Docker"],
+    image: flavorImg,
     liveUrl: "https://flavor-flow-logistics.web.app/",
     repoUrl: "https://github.com/elijarodriguez/jimmela-bites.git",
   }
@@ -64,17 +70,29 @@ const ProjectsSection = () => (
             transition={{ duration: 0.5, delay: i * 0.1 }}
             className="glass-card glow-border overflow-hidden group"
           >
-            {/* Placeholder image area */}
-            <div className="h-48 bg-secondary/50 flex items-center justify-center border-b border-border/50 overflow-hidden">
-              <div className="text-center">
-                <div className="font-mono text-sm text-muted-foreground mb-2">
-                  {"// screenshot or preview"}
+            {/* Project preview screenshot */}
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="block h-56 bg-secondary/50 border-b border-border/50 overflow-hidden relative"
+            >
+              {project.image ? (
+                <img
+                  src={project.image}
+                  alt={`${project.title} preview`}
+                  loading="lazy"
+                  className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                />
+              ) : (
+                <div className="h-full flex items-center justify-center">
+                  <span className="font-mono text-sm text-muted-foreground">
+                    {"// screenshot"}
+                  </span>
                 </div>
-                <span className="text-xs text-muted-foreground/60">
-                  Replace with project screenshot
-                </span>
-              </div>
-            </div>
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent pointer-events-none" />
+            </a>
 
             <div className="p-6">
               <div className="flex items-start justify-between mb-3">
