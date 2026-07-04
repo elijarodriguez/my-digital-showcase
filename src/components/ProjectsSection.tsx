@@ -16,28 +16,32 @@ interface Project {
 const projects: Project[] = [
   {
     title: "INCIQ Web App",
-    description: "Brief description of the web development project, what problem it solved, and what tech stack you used. Replace this with your actual project.",
-    tags: ["React", "Node.js", "AI Integration"],
+    description:
+      "A skincare companion web app with the tagline 'Know before you glow.' Users sign in to get personalized skin insights and product guidance. Built as a responsive single-page app with a clean auth flow and a lightweight component-based UI.",
+    tags: ["React", "Vite", "Tailwind", "Auth Flow"],
     image: inciqImg,
     liveUrl: "https://elijarodriguez.github.io/inciq-webapp/",
     repoUrl: "https://github.com/elijarodriguez/inciq-webapp.git",
   },
   {
-    title: "TalatidePH",
-    description: "Describe another website or application you built. Highlight the AI or smart features you implemented.",
-    tags: ["Next.js", "PostgreSQL", "OpenAI"],
+    title: "TalaTidePH",
+    description:
+      "A smart tide tracker for the Philippines that helps fisherfolk, divers, and coastal communities plan around tide conditions. Includes a demo login, dashboard views, and a mobile-friendly layout deployed on Vercel.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Vercel"],
     image: talatideImg,
     liveUrl: "https://talatideph.vercel.app/",
     repoUrl: "https://github.com/elijarodriguez/talatideph.git",
   },
   {
-    title: "Frozen Food and Shipment Tracker Web App",
-    description: "Add details about your third project here. Focus on the impact and results you achieved for the client.",
-    tags: ["TypeScript", "Tailwind", "Docker"],
+    title: "Jimmela Frozen Food & Shipment Tracker",
+    description:
+      "A storefront and order-tracking web app for Jimmela Food Products — premium siomai, longganisa, and frozen delights. Features product catalog with category filters, franchise inquiries, testimonials, and a contact/order flow. Deployed on Firebase Hosting.",
+    tags: ["React", "TypeScript", "Tailwind", "Firebase"],
     image: flavorImg,
     liveUrl: "https://flavor-flow-logistics.web.app/",
     repoUrl: "https://github.com/elijarodriguez/jimmela-bites.git",
-  }
+  },
+
 ];
 
 const ProjectsSection = () => (
