@@ -34,9 +34,11 @@ const ContactSection = () => {
 
     setLoading(true);
     try {
+      const { name, email, message } = parsed.data;
       const { error: insertError } = await supabase
         .from("contact_messages")
-        .insert(parsed.data);
+        .insert({ name, email, message });
+
 
       if (insertError) throw insertError;
 
