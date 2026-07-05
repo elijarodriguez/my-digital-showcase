@@ -36,20 +36,17 @@ const AboutSection = () => (
           {/* Left: Bio */}
           <div className="space-y-6">
             <p className="text-muted-foreground leading-relaxed text-lg">
-              I'm a Computer Engineering graduate with a strong foundation in full stack
-              development and a growing specialization in{" "}
-              <span className="text-primary font-semibold">automation engineering</span> using n8n.
-              I build websites, web apps, and the workflows that connect tools behind the scenes.
+              I build websites that don't just sit there — and automations that
+              actually do the work while you sleep. I'm <span className="text-primary font-semibold">Elija</span>, a Computer
+              Engineering grad who loves turning messy ideas into clean, running code.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I bring clean engineering habits, curiosity, and a
-              genuine drive to solve real problems. Whether it's a custom dashboard or an n8n workflow
-              that saves hours every week, I'm ready to{" "}
-              <span className="text-primary font-semibold">collaborate, learn, and deliver</span>{" "}
-              alongside clients and teams.
+              Full stack by day, n8n workflow nerd by night. I mix code, webhooks,
+              and a little AI magic to help teams save time and look good doing it.
+              If it clicks, dings, or makes life easier, I'm probably into it.
             </p>
             <p className="text-muted-foreground leading-relaxed text-sm">
-              Currently open to freelance and entry-level opportunities where I can contribute and grow.
+              Open to freelance gigs, collabs, and cool teams — let's make something useful.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
