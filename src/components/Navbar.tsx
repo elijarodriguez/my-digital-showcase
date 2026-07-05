@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
+
 
 const links = [
   { label: "About", href: "#about" },
@@ -16,11 +18,15 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/70 backdrop-blur-xl border-b border-border/30">
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="font-display text-lg font-bold text-foreground">
-          <span className="text-primary">{"<"}</span>
-          dev
-          <span className="text-primary">{"/>"}</span>
+        <a href="#" className="flex items-center gap-2 font-display text-lg font-bold text-foreground">
+          <img src={logo} alt="John Elija Rodriguez logo" width={32} height={32} className="w-8 h-8" />
+          <span className="hidden sm:inline">
+            <span className="text-primary">{"<"}</span>
+            elija
+            <span className="text-primary">{"/>"}</span>
+          </span>
         </a>
+
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
