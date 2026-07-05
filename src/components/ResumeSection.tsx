@@ -17,7 +17,7 @@ const timeline: TimelineItem[] = [
     company: "Bulacan State University",
     period: "2022 — 2026",
     description: "Relevant coursework, thesis topic, or notable achievements during your degree.",
-    tags: ["Software Engineering", "AI/ML"],
+    tags: ["Computer Engineering", "Embedded Systems", "Software Development", "Automation"]
   }
 ];
 
