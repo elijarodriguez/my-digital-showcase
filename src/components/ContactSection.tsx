@@ -8,7 +8,8 @@ const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100, "Name is too long"),
   email: z.string().trim().email("Invalid email address").max(255, "Email is too long"),
   message: z.string().trim().min(1, "Message is required").max(2000, "Message is too long"),
-});
+}).required();
+
 
 const ContactSection = () => {
   const [submitted, setSubmitted] = useState(false);
