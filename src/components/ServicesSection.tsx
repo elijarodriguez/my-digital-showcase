@@ -30,13 +30,13 @@ const services = [
     icon: Database,
     title: "Backend & APIs",
     desc: "Robust server-side architecture, RESTful APIs, database design, and cloud infrastructure setup.",
-    tags: ["PostgreSQL", "AWS", "Docker"],
+    tags: [ "MySQL", "Docker", "Firebase", "Supabase"],
   },
   {
     icon: Palette,
     title: "UI/UX Engineering",
     desc: "Pixel-perfect interfaces with smooth animations and responsive design that works everywhere.",
-    tags: ["Tailwind", "Figma", "Motion"],
+    tags: ["Tailwind", "Motion"],
   },
 ];
 

@@ -4,8 +4,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const roles = [
   "Full Stack Developer",
-  "Automation Engineer",
-  "n8n Specialist",
+  "Automation Specialist",
   "Computer Engineer",
 ];
 
