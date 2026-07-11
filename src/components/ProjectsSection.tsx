@@ -20,8 +20,8 @@ const projects: Project[] = [
       "A skincare companion web app with the tagline 'Know before you glow.' Users sign in to get personalized skin insights and product guidance. Built as a responsive single-page app with a clean auth flow and a lightweight component-based UI.",
     tags: ["React", "Vite", "Tailwind", "Auth Flow"],
     image: inciqImg,
-    liveUrl: "https://elijarodriguez.github.io/inciq-webapp/",
-    repoUrl: "https://github.com/elijarodriguez/inciq-webapp.git",
+    liveUrl: "https://inciq-skincare-analyzer.vercel.app/",
+    repoUrl: "https://github.com/elijarodriguez/inciq-brighten-up.git",
   },
   {
     title: "TalaTidePH",
