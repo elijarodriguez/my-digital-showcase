@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Briefcase, GraduationCap, Download } from "lucide-react";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 interface TimelineItem {
   type: "work" | "education";
@@ -38,8 +39,8 @@ const ResumeSection = () => (
           </div>
 
           <a
-            href="/resume.pdf"
-            download
+            href={resumeAsset.url}
+            download="John_Elija_De_Guzman_Rodriguez.pdf"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-primary/50 text-primary font-mono text-sm hover:bg-primary/10 transition-colors"
           >
             <Download className="w-4 h-4" />
