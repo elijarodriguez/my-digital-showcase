@@ -3,6 +3,7 @@ import { ExternalLink, Github } from "lucide-react";
 import inciqImg from "@/assets/projects/inciq.png";
 import talatideImg from "@/assets/projects/talatide.png";
 import flavorImg from "@/assets/projects/flavor.png";
+import bulacanVrImg from "@/assets/projects/bulacanwebvr.png";
 
 interface Project {
   title: string;
@@ -40,6 +41,15 @@ const projects: Project[] = [
     image: flavorImg,
     liveUrl: "https://flavor-flow-logistics.web.app/",
     repoUrl: "https://github.com/elijarodriguez/jimmela-bites.git",
+  },
+  {
+    title: "Bulacan WebVR",
+    description:
+      "An immersive WebVR experience showcasing five historical sites in Bulacan. Built for VR box exploration so users can walk through heritage landmarks from their browser. A fun experiment mixing 360° capture, A-Frame, and a little web magic.",
+    tags: ["A-Frame", "WebVR", "360° Media", "GitHub Pages"],
+    image: bulacanVrImg,
+    liveUrl: "https://elijarodriguez.github.io/bulacanwebvr/",
+    repoUrl: "https://github.com/elijarodriguez/bulacanwebvr.git",
   },
 
 ];
