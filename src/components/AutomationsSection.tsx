@@ -77,7 +77,7 @@ const automations: Automation[] = [
 ];
 
 const AutomationsSection = () => (
-  <section id="automations" className="py-24 relative">
+  <section id="automations" className="py-16 md:py-24 relative">
     <div className="absolute inset-0 grid-bg opacity-20" />
     <div className="container mx-auto px-6 relative z-10">
       <motion.div
