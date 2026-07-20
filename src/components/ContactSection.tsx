@@ -100,7 +100,7 @@ const ContactSection = () => {
               </div>
             </div>
 
-            <form className="glass-card glow-border p-8 space-y-6" onSubmit={handleSubmit}>
+            <form className="glass-card glow-border p-6 md:p-8 space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label htmlFor="contact-name" className="font-mono text-sm text-muted-foreground mb-2 block">
                   Name

@@ -128,10 +128,10 @@ const AutomationsSection = () => (
               </div>
               <div className="space-y-1.5 ml-1">
                 {a.steps.map((step, idx) => (
-                  <div key={step} className="flex items-center gap-2 text-muted-foreground">
-                    <span className="text-primary/60">{String(idx + 1).padStart(2, "0")}</span>
-                    <span className="w-3 h-px bg-border" />
-                    <span>{step}</span>
+                  <div key={step} className="flex items-start gap-2 text-muted-foreground">
+                    <span className="text-primary/60 shrink-0">{String(idx + 1).padStart(2, "0")}</span>
+                    <span className="w-3 h-px bg-border mt-2 shrink-0" />
+                    <span className="break-words min-w-0">{step}</span>
                   </div>
                 ))}
               </div>
