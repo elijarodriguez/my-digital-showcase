@@ -55,7 +55,7 @@ const projects: Project[] = [
 ];
 
 const ProjectsSection = () => (
-  <section id="projects" className="py-24 relative">
+  <section id="projects" className="py-16 md:py-24 relative">
     <div className="absolute inset-0 dot-bg opacity-20" />
     <div className="container mx-auto px-6 relative z-10">
       <motion.div

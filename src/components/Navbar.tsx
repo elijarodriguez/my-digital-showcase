@@ -18,12 +18,10 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/70 backdrop-blur-xl border-b border-border/30">
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2 font-display text-lg font-bold text-foreground">
-          <span className="hidden sm:inline">
-            <span className="text-primary">{"<"}</span>
-            elias
-            <span className="text-primary">{"/>"}</span>
-          </span>
+        <a href="#" className="flex items-center gap-2 font-display text-base sm:text-lg font-bold text-foreground">
+          <span className="text-primary">{"<"}</span>
+          elija
+          <span className="text-primary">{"/>"}</span>
         </a>
 
 

@@ -54,7 +54,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-24 relative">
+    <section id="contact" className="py-16 md:py-24 relative">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -100,7 +100,7 @@ const ContactSection = () => {
               </div>
             </div>
 
-            <form className="glass-card glow-border p-8 space-y-6" onSubmit={handleSubmit}>
+            <form className="glass-card glow-border p-6 md:p-8 space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label htmlFor="contact-name" className="font-mono text-sm text-muted-foreground mb-2 block">
                   Name
